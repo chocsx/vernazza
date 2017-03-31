@@ -9,7 +9,7 @@
 //MIXINS
 @mixin img(){
   display: block;
-  width:100%;
+  width: 100%;
   height: auto;
 }
 @mixin title($color){
@@ -143,6 +143,14 @@ body {
       margin: 4em auto;
     }
   }
+}
+.planta{
+  padding: 2em 0;
+  background-color: #e0dbc5;
+  h2{
+    @include title(#de3a00)
+  }
+
 }
 .localizacao{
   padding: 2em 0;
@@ -332,4 +340,10 @@ body {
         padding: 20px !important;
       }
     }
+}
+.slider-fit{
+  img{
+    width: 100%;
+    height: auto;
+  }
 }
