@@ -5,11 +5,11 @@ $(document).ready(function () {
     });
 
     $('.slider').slick({
-        autoplay: true,
+        autoplay: false,
         infinite: true,
         arrows: true,
-        nextArrow: '<i class="fa fa-arrow-right"></i>',
-        prevArrow: '<i class="fa fa-arrow-left"></i>',
+        nextArrow: '<i class="arrow-right"></i>',
+        prevArrow: '<i class="arrow-left"></i>',
         speed: 300,
         slidesToShow: 1,
         adaptiveHeight: true

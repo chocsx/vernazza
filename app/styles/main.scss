@@ -40,14 +40,18 @@ body {
     font-size: 2em;
     text-shadow: 1px 2px 3px #333;
   }
-  .fa-arrow-right{
+  .arrow-right{
+    background-image: url('../images/arrow-right.png');
+    background-size: cover;
     right: 25px;
     @media screen and (max-width: 480px){
       right: 5px;
     }
   }
-  .fa-arrow-left{
+  .arrow-left{
     left: 25px;
+    background-image: url('../images/arrow-left.png');
+    background-size: cover;
     @media screen and (max-width: 480px){
       left: 5px;
     }
@@ -72,7 +76,7 @@ body {
 .viva{
   background-color: #e0dbc5;
   text-align: center;
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: 1023px){
     padding: 2em 0;
   }
   @media screen and (min-width: 1024px){
@@ -93,6 +97,9 @@ body {
     max-width: 760px;
     display: block;
     margin: 4em auto;
+    @media screen and (max-width: 1023px){
+      margin: 2em 0;
+    }
   }
   a{
     font-size: 15px;

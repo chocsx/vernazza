@@ -9013,7 +9013,7 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
  * @link https://github.com/jonsuh/hamburgers
  */
 .hamburger {
-  padding: 15px 15px;
+  padding: 10px 15px;
   display: inline-block;
   cursor: pointer;
   -webkit-transition-property: opacity, -webkit-filter;
@@ -13340,22 +13340,26 @@ body {
   text-shadow: 1px 2px 3px #333;
 }
 
-.slider .fa-arrow-right {
+.slider .arrow-right {
+  background-image: url("../images/arrow-right.png");
+  background-size: cover;
   right: 25px;
 }
 
 @media screen and (max-width: 480px) {
-  .slider .fa-arrow-right {
+  .slider .arrow-right {
     right: 5px;
   }
 }
 
-.slider .fa-arrow-left {
+.slider .arrow-left {
   left: 25px;
+  background-image: url("../images/arrow-left.png");
+  background-size: cover;
 }
 
 @media screen and (max-width: 480px) {
-  .slider .fa-arrow-left {
+  .slider .arrow-left {
     left: 5px;
   }
 }
@@ -13381,7 +13385,7 @@ body {
   text-align: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .viva {
     padding: 2em 0;
   }
@@ -13421,6 +13425,12 @@ body {
 @media screen and (min-width: 1024px) {
   .viva p {
     font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .viva p {
+    margin: 2em 0;
   }
 }
 
